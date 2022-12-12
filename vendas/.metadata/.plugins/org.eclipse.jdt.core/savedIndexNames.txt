@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\DADOS\Área de Trabalho\projetos java\vendas\.metadata\.plugins\org.eclipse.jdt.core
+2014957666.index
+1865797976.index
+3746435461.index

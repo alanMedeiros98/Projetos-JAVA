@@ -1,0 +1,115 @@
+package vendas;
+
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+public class vendas1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> produto = new ArrayList<String>();
+		ArrayList<Double> valor = new ArrayList<Double>();
+		ArrayList<Integer> saldo = new ArrayList<Integer>();
+		
+		int exit = 1;
+		
+		do {
+			
+			
+			int menu = Integer.parseInt(JOptionPane.showInputDialog(null, "Menu"
+																		+ "\n\n1 - Cadastrar Item"
+																		+ "\n2 - Listar Item"
+																		+ "\n3 - Alterar Item"
+																		+ "\n4 - Remover Item"
+																		+ "\n\n5 - Alterar Valor do Item"
+																		+ "\n\n6 - Adicionar Saldo ao Item"
+																		+ "\n7 - Consultar saldo"
+																		+ "\n\n0 - Sair"));
+			//montando a lista
+			String listaItem = "Lista Ordenada\n\n";
+			listaItem += "Código - Item - Valor";
+			for(int i = 0; i < produto.size(); i++) {
+				listaItem += "\n" + i +" - "+ produto.get(i) + " - R$ " + valor.get(i);
+			}
+			listaItem += "\n\n";
+			//Lista saldo
+			String listaSaldo = "Lista de Saldo";
+			listaSaldo += "\n\nCódigo - Item - Quantidade em estoque";
+			for(int i = 0; i < saldo.size(); i++) {
+				listaSaldo += "\n" + i +" - " + produto.get(i) + " - " + saldo.get(i);
+			}
+			if(menu == 1) {
+				//menu de cadastro
+				produto.add(JOptionPane.showInputDialog(null, "Tela de Cadastro de Produto!"
+															+ "\n\nCadastrar Produto"
+															+ "\n"));
+				//cadastrando o valor do item
+				valor.add(Double.parseDouble(JOptionPane.showInputDialog(null, "Tela de cadastro de item"
+														  + "\n\nInfome o valor do item:")));
+				JOptionPane.showMessageDialog(null, "Produto cadastrado com sucesso!");
+				//adicionando o saldo
+				saldo.add(0);
+				
+				
+			} else if(menu == 2) {
+				//listando a quantidade de itens cadastrados
+				JOptionPane.showMessageDialog(null, listaItem);
+			} else if(menu == 3) {
+				//pegando o código do item
+				int altItem = Integer.parseInt(JOptionPane.showInputDialog(null, "Tela de Alteração de Item"
+																			   + "\n\nInforme o código do Item"));
+				JOptionPane.showMessageDialog(null, "O item a ser alterado vai ser: " + produto.get(altItem));
+				//alterando o item
+				produto.set(altItem, JOptionPane.showInputDialog(null, "Tela de Alteração de Item"
+																	 + "\n\nInforme o novo Item"));
+				//alterando o valor do item
+				valor.set(altItem, Double.parseDouble(JOptionPane.showInputDialog(null, "Tela de Alteração de Item"
+																   + "\n\nInforme o novo valor:")));
+				//mensagem de alteração bem sucedida
+				JOptionPane.showMessageDialog(null, "Tela de Alteração de Item"
+												  + "\n\nItem Alterado com Sucesso!");
+			} else if(menu == 4) {
+				//removendo item
+				int codItemRemover = Integer.parseInt(JOptionPane.showInputDialog(null, "Tela de Remoção de Item!"
+																					   + "\n\nInforme o código do item que você quer remover."));
+				//confirmando se o item vai ser removido ou nao
+				int confirmRemove = JOptionPane.showConfirmDialog(null, "Você realmente deseja remover o item " + produto.get(codItemRemover) + "?",
+																		"Tela de Remoção de Item!",
+																		JOptionPane.YES_NO_OPTION);
+				if(confirmRemove == 0) {
+					//removendo o item
+					produto.remove(codItemRemover);
+					JOptionPane.showMessageDialog(null, "Tela de Remoção de Item!"
+													  + "\n\nItem Removido com Sucesso!");
+				} else if (confirmRemove == 1){
+					//nao removendo o item
+					JOptionPane.showMessageDialog(null, "Tela de Remoção de Item!"
+													  + "\n\nO item não foi removido!");
+				}
+			} else if(menu == 5) {
+				//pegando o codigo do item
+				int altValorItem = Integer.parseInt(JOptionPane.showInputDialog(null, "Tela de Alteração de Valor!"
+																					+ "\n\nInforme o código do Item:"));
+				//alterando o valor do item
+				JOptionPane.showMessageDialog(null, "O valor do item a ser alterado sera: " + produto.get(altValorItem));
+				valor.set(altValorItem, Double.parseDouble(JOptionPane.showInputDialog(null, "Tela de Alteração de Valor!"
+																						   + "\n\nInforme o novo valor:")));
+				JOptionPane.showMessageDialog(null, "Novo valor cadastrado com sucesso!");
+			} else if(menu == 6) { 
+				int altSaldo = Integer.parseInt(JOptionPane.showInputDialog(null, "Tela de adicionar Saldo!"
+																				+ "\n\nInforme o código do Item que você quer adicionar saldo:"));
+				saldo.set(altSaldo, Integer.parseInt(JOptionPane.showInputDialog(null, "Você vai adicionar saldo ao Item: " + produto.get(altSaldo)
+																		   + "\n\nInforme o saldo:")));
+			} else if(menu == 7) {
+				JOptionPane.showMessageDialog(null, listaSaldo);
+			}
+			
+			
+			
+			
+			
+		}while(exit != 0);
+	}
+
+}

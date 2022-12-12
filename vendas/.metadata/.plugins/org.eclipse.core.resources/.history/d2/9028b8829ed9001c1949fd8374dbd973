@@ -1,0 +1,7 @@
+create database vendas;
+
+create table produto(
+		
+		
+		
+	)

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\DADOS\Documentos\eclipse-workspace\SistemaDeSeguranca"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\times"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\live-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula26-preparacao"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula25-preparacao"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\jogo_apostas"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula22-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula19-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula18-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula23-exercicio1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Padroes_projeto_JDBC"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula3Censo"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula02-Estoque"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula23-exercicio1\configs\conexao-db.properties"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+</section>

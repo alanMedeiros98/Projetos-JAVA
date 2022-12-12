@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.senai.view.ViewConsultaIncidente"/>
+    <fullyQualifiedTypeName name="javax.swing.table.AbstractTableModel"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="br.com.senai.view.ViewConsultaEnvolvido"/>
+    <fullyQualifiedTypeName name="br.com.senai.view.ViewCadastroEnvolvido"/>
+    <fullyQualifiedTypeName name="br.com.senai.view.ViewCadastroOcorrencia"/>
+    <fullyQualifiedTypeName name="br.com.senai.view.ViewConsultaOcorrencia"/>
+    <fullyQualifiedTypeName name="javax.swing.text.MaskFormatter"/>
+</qualifiedTypeNameHistroy>

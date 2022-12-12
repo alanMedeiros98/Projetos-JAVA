@@ -1,33 +1,26 @@
-package telas;
-
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-
-import classes.Cliente;
-
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
+package br.com.locadora.view;
 
 import java.awt.Font;
-import javax.swing.SwingConstants;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.JTextField;
-import javax.swing.LayoutStyle.ComponentPlacement;
-import javax.swing.JButton;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.awt.event.ActionEvent;
 
-public class tlCadastroCliente extends JFrame {
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
 
-	/**
-	 * 
-	 */
+import br.com.locadora.core.domain.Cliente;
+
+public class ViewCadastroCliente extends JFrame {
+
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField cpNomeCliente;
@@ -35,26 +28,7 @@ public class tlCadastroCliente extends JFrame {
 	private JTextField cpCPF;
 	private JTextField cpEnderecoCliente;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					tlCadastroCliente frame = new tlCadastroCliente(null);
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
-	 * Create the frame.
-	 */
-	public tlCadastroCliente(ArrayList<Cliente> clientes) {
+	public ViewCadastroCliente(ArrayList<Cliente> clientes) {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 646, 436);
 		contentPane = new JPanel();

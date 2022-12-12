@@ -1,4 +1,4 @@
-package classes;
+package br.com.locadora.core.domain;
 
 import java.util.ArrayList;
 
@@ -68,13 +68,13 @@ public class Cliente {
 		return endereco;
 	}
 
-	public void setEndereco(String endereço) {
-		this.endereco = endereço;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 
 	@Override
 	public String toString() {
-		return "Cliente [nome=" + nome + ", idade=" + idade + ", cpf=" + cpf + ", endereço=" + endereco + "]";
+		return "Cliente [nome=" + nome + ", idade=" + idade + ", cpf=" + cpf + ", endere�o=" + endereco + "]";
 	}
 	
 	public Cliente cadastrar(String nome, Integer idade, String cpf, String endereco) {

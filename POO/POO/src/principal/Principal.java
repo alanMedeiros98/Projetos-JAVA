@@ -1,13 +1,10 @@
 package principal;
 
-import javax.swing.JOptionPane;
-
 import classes.Livro;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Livro livro = new Livro();
 		

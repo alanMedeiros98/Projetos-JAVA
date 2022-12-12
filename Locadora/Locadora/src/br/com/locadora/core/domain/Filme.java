@@ -1,4 +1,4 @@
-package classes;
+package br.com.locadora.core.domain;
 
 import java.util.ArrayList;
 

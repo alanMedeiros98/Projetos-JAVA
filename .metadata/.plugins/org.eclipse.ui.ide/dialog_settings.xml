@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Locadora"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\POO"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\SistemaDeSeguranca"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\times"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\live-exemplo1"/>

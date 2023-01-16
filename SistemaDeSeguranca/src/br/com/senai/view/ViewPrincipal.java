@@ -19,7 +19,7 @@ public class ViewPrincipal extends JFrame {
 		setTitle("ERP SENAI - M\u00F3dulo de Gest\u00E3o de incidentes");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(100, 100, 683, 559);
+		setBounds(100, 100, 616, 449);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

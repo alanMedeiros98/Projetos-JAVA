@@ -1,11 +1,11 @@
 package br.com.senai;
 
-import br.com.senai.view.ViewLogin;
+import br.com.senai.view.ViewPrincipal;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		new ViewLogin().setVisible(true);
+		new ViewPrincipal().setVisible(true);
 
 	}
 

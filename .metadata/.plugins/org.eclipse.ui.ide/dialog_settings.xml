@@ -7,21 +7,26 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Balada"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula21-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula16-handson-caso1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula16-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo4"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo3"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo2"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula12-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula12_exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula11-handson"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula11-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula10-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula9-exemplo1"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula6-trivago"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula6-AutoPecas"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\aula5-handson"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Aula 4 - Caso 1 - Resolvido"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\Locadora"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\POO"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\SistemaDeSeguranca"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\times"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\live-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula26-preparacao"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula25-preparacao"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\jogo_apostas"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula22-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula19-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula18-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula23-exercicio1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\Padroes_projeto_JDBC"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula3Censo"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula02-Estoque"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

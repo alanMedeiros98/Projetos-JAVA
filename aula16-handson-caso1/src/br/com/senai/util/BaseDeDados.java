@@ -4,8 +4,6 @@ import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +12,7 @@ import br.com.senai.domain.Aluno;
 
 public class BaseDeDados {
 
-	private 
+	private static final String PATH_ARQUIVO = "D:\\DADOS\\Documentos\\arquivos-senai\\alunos.txt";
 	
 	private List<Aluno> alunos;
 	
@@ -42,19 +40,20 @@ public class BaseDeDados {
 	private List<Aluno> carregarDoArquivo(){
 		List<Aluno> alunosDoArquivo = new ArrayList<>();
 		try{
-			InputStream is = new FileinputStream(PATH_ARQUIVO);
+			FileOutputStream is = new FileOutputStream(PATH_ARQUIVO);
 			OutputStreamWriter osw = new OutputStreamWriter(is);
 			BufferedWriter br = new BufferedWriter(osw);
-			String linha = br 
-		}catch() {
-			
+			br.close();
+		}catch(Exception e) {
+			e.printStackTrace();
 		}
+		return alunosDoArquivo;
 	}
 	
-	private void salvarnNomeArquivo(Aluno aluno) {
+	private void salvarNomeArquivo(Aluno aluno) {
 		BufferedWriter bw = null;
 		try {
-			OutputStream os = new FileOutputStream("C:\\arquivos-senai\\alunos.txt", true);
+			FileOutputStream os = new FileOutputStream("D:\\DADOS\\Documentos\\arquivos-senai\\alunos.txt", true);
 			OutputStreamWriter osw = new OutputStreamWriter(os);
 			bw = new BufferedWriter(osw);
 			bw.write(aluno.toString());

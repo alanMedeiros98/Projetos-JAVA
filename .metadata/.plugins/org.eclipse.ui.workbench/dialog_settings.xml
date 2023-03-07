@@ -26,4 +26,13 @@
 	</section>
 	<section name="PreferencesImportWizard">
 	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\DADOS\Documentos\todos os projetos.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>

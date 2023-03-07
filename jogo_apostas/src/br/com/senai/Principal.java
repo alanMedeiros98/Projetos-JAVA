@@ -1,7 +1,5 @@
 package br.com.senai;
 
-import javax.swing.SwingUtilities;
-
 import br.com.senai.view.viewPrincipal;
 
 public class Principal {

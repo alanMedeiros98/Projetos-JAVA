@@ -7,26 +7,26 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\DADOS\Documentos\eclipse-workspace\vendas"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Teste"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\telas"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\salaoDeBeleza"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\SalaoDeBelesa"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Prova-Alan-Andrei-24-10-2022-"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\ProjetoLocadora"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\ProjetoBancoDeDados"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Preparacao-mundo-senai"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\LojaPecas"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\JDBC"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\Escola"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\BancoSenai"/>
+			<item value="D:\DADOS\Documentos\eclipse-workspace\BancoDeDados"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\Balada"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\aula21-exemplo1"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\aula16-handson-caso1"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\aula16-exemplo1"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo4"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo3"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo2"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula12-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula12_exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula11-handson"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula11-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula10-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula9-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula6-trivago"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula6-AutoPecas"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula5-handson"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\Aula 4 - Caso 1 - Resolvido"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\Locadora"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\POO"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

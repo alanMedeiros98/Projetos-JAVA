@@ -7,6 +7,15 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula24-exercicio1"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula16-handson3"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula16-handson2"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula16-handson1"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\vendas"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\SoftwareBiblioteca"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\POO"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\Locadora"/>
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula4-exercicio1"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\vendas"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\Teste"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\telas"/>
@@ -18,15 +27,6 @@
 			<item value="D:\DADOS\Documentos\eclipse-workspace\Preparacao-mundo-senai"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\LojaPecas"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\JDBC"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\Escola"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\BancoSenai"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\BancoDeDados"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\Balada"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula21-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula16-handson-caso1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula16-exemplo1"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo4"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\aula13-exemplo3"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

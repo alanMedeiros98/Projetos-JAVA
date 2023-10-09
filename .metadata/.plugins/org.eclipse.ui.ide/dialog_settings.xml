@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula27-preparacao"/>
 			<item value="C:\Users\alan\Documents\eclipse-workspace\aula24-exercicio1"/>
 			<item value="C:\Users\alan\Documents\eclipse-workspace\aula16-handson3"/>
 			<item value="C:\Users\alan\Documents\eclipse-workspace\aula16-handson2"/>
@@ -26,7 +27,6 @@
 			<item value="D:\DADOS\Documentos\eclipse-workspace\ProjetoBancoDeDados"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\Preparacao-mundo-senai"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\LojaPecas"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\JDBC"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
@@ -38,5 +38,8 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\alan\Documents\eclipse-workspace\aula09-gerar-funcionario"/>
+		</list>
 	</section>
 </section>

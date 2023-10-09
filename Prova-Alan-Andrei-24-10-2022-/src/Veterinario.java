@@ -1,7 +1,7 @@
 
 public class Veterinario {
 
-	private Animal animal;
+	//private Animal animal;
 	
 	private int codigo;
 	

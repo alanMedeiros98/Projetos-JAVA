@@ -10,4 +10,5 @@
     <fullyQualifiedTypeName name="br.com.senai.view.ViewCadastroOcorrencia"/>
     <fullyQualifiedTypeName name="br.com.senai.view.ViewConsultaOcorrencia"/>
     <fullyQualifiedTypeName name="javax.swing.text.MaskFormatter"/>
+    <fullyQualifiedTypeName name="br.com.senai.domain.Sexo"/>
 </qualifiedTypeNameHistroy>

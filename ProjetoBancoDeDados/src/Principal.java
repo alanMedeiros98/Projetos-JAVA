@@ -15,7 +15,7 @@ public class Principal {
 		    Class.forName("org.postgresql.Driver");
 		    Connection conexao = DriverManager.getConnection(url, usuario, senha);
 		    System.out.println("Conexão feita com sucesso!!");
-		    //JOptionPane.showMessageDialog(null, "Conexão feita com sucesso.");
+		    JOptionPane.showMessageDialog(null, "Conexão feita com sucesso.");
 		} catch (ClassNotFoundException e) {
 		    // Erro caso o driver JDBC não foi instalado
 		    e.printStackTrace();

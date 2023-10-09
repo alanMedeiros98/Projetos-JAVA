@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Alan\Documents\Projetos JAVA\eclipse-workspace\POO"/>
 			<item value="C:\Users\alan\Documents\eclipse-workspace\aula27-preparacao"/>
 			<item value="C:\Users\alan\Documents\eclipse-workspace\aula24-exercicio1"/>
 			<item value="C:\Users\alan\Documents\eclipse-workspace\aula16-handson3"/>
@@ -26,7 +27,6 @@
 			<item value="D:\DADOS\Documentos\eclipse-workspace\ProjetoLocadora"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\ProjetoBancoDeDados"/>
 			<item value="D:\DADOS\Documentos\eclipse-workspace\Preparacao-mundo-senai"/>
-			<item value="D:\DADOS\Documentos\eclipse-workspace\LojaPecas"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

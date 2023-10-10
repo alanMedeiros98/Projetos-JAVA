@@ -15,6 +15,9 @@ public class ViewPrincipal extends JFrame {
 	
 	private JPanel contentPane;
 
+	/**
+	 * Create the frame.
+	 */
 	public ViewPrincipal() {
 		setResizable(false);
 		setName("frmPrincipal");
